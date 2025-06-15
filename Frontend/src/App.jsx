@@ -34,16 +34,11 @@ function App() {
   };
 
 
-<<<<<<< HEAD
-  // MÉTODOS PARA DESAFÍO LIKE ME II
 
-
-=======
-//SIGUIENTE DESAFÍO
+// MÉTODOS PARA DESAFÍO LIKE ME II
 
 
 // LIke
->>>>>>> 0ab04e75230dbfb952be0c0d016f8de6ec216253
   const like = async (id) => {
     try {
       await axios.put(urlBaseServer + `/posts/like/${id}`);
@@ -53,10 +48,7 @@ function App() {
     }
   };
 
-<<<<<<< HEAD
-=======
   // eliminar
->>>>>>> 0ab04e75230dbfb952be0c0d016f8de6ec216253
   const eliminarPost = async (id) => {
     try {
       await axios.delete(urlBaseServer + `/posts/${id}`);
